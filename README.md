@@ -13,10 +13,10 @@ Welcome to **Aditya's Portfolio Showcase** — a modern, elegant, and fully resp
 ## 🖼️ Preview
 
 ### Home
-![Home](readme_assets/home.png)
+![Home](home.png)
 
 ### Projects
-![Projects](readme_assets/projects.png)
+![Projects](projects.png)
 
 ---
 
