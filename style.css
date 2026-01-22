@@ -1340,3 +1340,105 @@ hr {
         font-size: 24px;
     }
 }
+/* ===================================================
+   RESPONSIVE LAYOUT FIX (DO NOT REMOVE ABOVE STYLES)
+   =================================================== */
+
+/* Safety */
+img, canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  word-break: break-word;
+}
+
+/* INTRO CARD */
+@media (max-width: 900px) {
+  .card {
+    padding: 26px;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .left h1 {
+    font-size: 36px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+  }
+
+  .orbit-box {
+    width: 180px;
+    height: 180px;
+  }
+
+  .core {
+    inset: 38px;
+  }
+}
+
+/* NAVBAR */
+@media (max-width: 768px) {
+  .ul-list {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .ul-list li {
+    padding: 6px 10px;
+  }
+
+  .ul-list li a {
+    font-size: 12px;
+  }
+}
+
+/* HOME */
+@media (max-width: 900px) {
+  .home {
+    margin: 120px 30px;
+  }
+
+  .home-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .info-p2,
+  .btnn,
+  .follow {
+    justify-content: center;
+  }
+
+  .follow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .follow ul {
+    gap: 1rem;
+  }
+
+  .home img {
+    width: 260px;
+  }
+}
+
+/* SMALL */
+@media (max-width: 500px) {
+  .info-home h1 { font-size: 32px; }
+  .info-home h3 { font-size: 22px; }
+  .left h1 { font-size: 28px; }
+  .stats { flex-direction: column; }
+}
